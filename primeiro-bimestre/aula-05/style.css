@@ -1,0 +1,36 @@
+.main-title{
+
+    color: #613333;
+    font-size: 42px;
+
+}
+
+.main-subtitle{
+
+    color: grey;
+
+}
+
+.post{
+
+    background-color: rgb(209, 206, 202);
+}
+
+.post h1{
+
+    color: indigo;
+
+}
+
+.post a{
+
+    color: white;
+    background-color: salmon;
+
+}
+
+ul, ol {
+
+    background-color: skyblue;
+
+}
