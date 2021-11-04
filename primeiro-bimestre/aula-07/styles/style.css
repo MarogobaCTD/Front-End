@@ -7,7 +7,7 @@
 div {
     width: 1000px;
     height: 720px;
-    background-image: url('../image/pexels-johannes-plenio-2850287.jpg');
+    background: url('../image/pexels-johannes-plenio-2850287.jpg') no-repeat center;
     color: white;
     text-align: center;
     padding-top: 250px;
