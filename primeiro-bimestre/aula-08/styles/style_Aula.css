@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: seagreen;
+    position: fixed;
+    z-index: 20; /*camadas de objetos*/
+
+}
+
+main{
+    height: 1200px;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    /*margin-bottom: 12px;*/
+}
+
+.first-square{
+    background-color: blue;
+}
+
+.second-square{
+    background-color: tomato;
+   /* position: relative; /*libera os tipos top, botton, left e right */
+   /* top: -200px;
+    left: 100px; */
+
+    /*position: absolute;
+    top: 50%;
+    left: 50%;*/
+
+    position: fixed;
+    
+    height: 100px;
+    width: 100px;
+    bottom: 24px;
+    right: 24px; 
+
+
+}
+
+.third-square{
+    background-color: violet;
+    position: relative;
+}
+
+
+.caixa {
+
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    padding: 24px;
+
+}
+
+.caixa-interna {
+
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+
+}
+
