@@ -6,10 +6,8 @@
 }
 
 header {
-    background-color: seagreen;
+    background-color: transparent;
     position: fixed;
-    z-index: 20; /*camadas de objetos*/
-
 }
 
 main{
