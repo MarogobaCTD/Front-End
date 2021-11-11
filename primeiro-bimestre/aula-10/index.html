@@ -1,0 +1,70 @@
+<!-- Com o conhecimento adquirido na aula, monte um formulário de uma empresa fictícia. Abaixo há um guia do que seu formulário deve ter.
+
+Selecione uma marca/logo da internet e coloque no seu site.
+Opcionalmente, você pode arredondar as bordas com border-radius.
+Seu formulário deve ter:
+Um input.
+Um textarea.
+Um select com options.
+Botões de reset e submit.
+Não se esqueça de personalizar o fundo do seu site com algo bacana da sua escolha! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="http://www.google.com.br">Início</a>
+        <a href="http://www.metropoles.com.br">Quem sou</a>
+    </header>
+
+    <main>
+
+        <div class="imagem"></div>
+
+        <form class="formulario">
+            <h1>Informações</h1>
+            <br>
+
+            <div>
+                <label for="username">Nome completo</label>
+                <input class="campo" type="text" name="username" id="username" > 
+            </div>
+            <br>
+
+            <div>
+                <label for="userEmail">E-mail</label>
+                <input class="campo" type="email" name="userEmail" id="userEmail">
+            </div>
+            <br>
+           
+           <div>
+                <label for="userMensage">Mensagem</label>
+                <textarea class="campo" name="userMensage" id="userMensage"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="userPlan">Professor?</label>
+                <select class="campo" name="userPlan" id="userPlan">
+                    <option value="1">Sim</option>
+                    <option value="2">Não</option>
+                </select>
+            </div>
+            <br>
+
+            <button class="botao" type="reset">Limpar</button>
+            <button class="botao" type="submit">Cadastrar</button>
+
+        </form>
+    </main>
+    
+</body>
+</html>

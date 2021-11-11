@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(252, 233, 252, 0.322);
+}
+
+header {
+    
+    position: fixed;
+    z-index: 20; /*camadas de objetos*/
+    width: 100%;
+    text-align: center;
+
+}
+
+.imagem{
+    background-image: url("../image/Logo.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.formulario{
+    text-align: center; 
+}
+
+.botao{
+    border-radius: 0px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-;
+}
+
+.campo{
+    background-color: white;
+}
