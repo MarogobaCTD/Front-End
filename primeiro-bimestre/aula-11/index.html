@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robertinhas Doceria Artesanal Saudável</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="imagem">
+    <header>
+        <div>
+            
+        </div>
+    </header>
+
+    <main>
+        <h1>Robertinhas Doceria Artesanal Saudável</h1>
+        <h2>Pedido</h2>
+        
+        <form>
+            
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="username">Nome completo</label>
+                    <input type="text" name="username" id="username" > 
+                </div>
+    
+                <div>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+    
+                <div>
+                    <label for="userEmail">E-mail</label>
+                    <input type="email" name="userEmail" id="userEmail">
+                </div>
+               
+                <div>
+                    <label for="userAdress">Endereço</label>
+                    <textarea name="userAdress" id="userAdress" cols="50" rows="2"></textarea>
+                </div>
+
+                <div>
+                    <label for="userContact">Contato</label>
+                    <input type="text" name="userContact" id="userContact" placeholder="(61) 9999-9999">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Doces</legend>
+
+                <div>
+
+                    <input type="checkbox" name="recomended" id="firstProduct">
+                    <label for="firstProduct">Brigadeirão</label>
+    
+                    <input type="checkbox" name="recomended" id="secondProduct">
+                    <label for="secondProduct">Bolo de Cenoura com Chocolate</label>
+
+                    <input type="checkbox" name="recomended" id="thirdProduct">
+                    <label for="firstProduct">Torta Prestígio</label>
+    
+                    <input type="checkbox" name="recomended" id="fourthProduct">
+                    <label for="secondProduct">Torta Suflair</label>
+
+                    <input type="checkbox" name="recomended" id="fifthProduct">
+                    <label for="firstProduct">Mousse de Chocolate</label>
+    
+                    <input type="checkbox" name="recomended" id="sixthProduct">
+                    <label for="secondProduct">Mousse de Maracujá</label>
+
+                    <input type="checkbox" name="recomended" id="seventhProduct">
+                    <label for="firstProduct">Palha Italiana</label>
+
+                    <input type="checkbox" name="recomended" id="eighthProduct">
+                    <label for="firstProduct">Brigadeiro com morango</label>
+    
+                    <input type="checkbox" name="recomended" id="ninthProduct">
+                    <label for="firstProduct">Coxinha de beijinho </label>
+    
+                    <input type="checkbox" name="recomended" id="tenthProduct">
+                    <label for="secondProduct">Coxinha de Cajuzinho</label>
+
+                    <input type="checkbox" name="recomended" id="tenthProduct">
+                    <label for="secondProduct">Bolo no Pote</label>
+
+                </div>
+
+                <div>
+                    <label for="userNote">Observações</label>
+                    <textarea name="userNote" id="userNote" cols="50" rows="2" placeholder="Informar o tipo de bolo no pote"></textarea>
+                </div>
+
+            </fieldset>
+
+           
+            <fieldset>
+                <legend>Pagamento</legend>
+
+                <div>    
+                   
+                    <input type="radio" name="payment" id="credit" checked>
+                    <label for="credit">Crédito</label>
+    
+                    
+                    <input type="radio" name="payment" id="debit">
+                    <label for="debit">Débito</label>
+    
+                    
+                    <input type="radio" name="payment" id="pix">
+                    <label for="pix">Pix</label>
+    
+                </div>
+
+            </fieldset>
+           
+            <fieldset>
+                <legend>Entrega</legend>
+
+                <div>
+
+                    <input type="radio" name="tax" id="retirar" checked>
+                    <label for="retirar">Retirar no local</label>
+    
+                    <input type="radio" name="tax" id="motoboy">
+                    <label for="motoboy">Motoboy</label>
+    
+                </div>
+
+                <div>
+                    <label for="scheduleDelivery">Agendar entrega</label>
+                    <input type="date" name="scheduleDelivery" id="scheduleDelivery" min="date">
+                </div>
+
+            </fieldset>
+            
+
+           
+            <button type="reset">Limpar</button>
+            <button type="submit">Pedir</button>
+
+        </form>
+    </main>
+    
+</body>
+</html>
