@@ -1,0 +1,122 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    text-align: center;   
+}
+
+header a{
+    color: blue;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: red;  
+}
+
+main{
+    padding: 32px;
+}
+
+main h1{
+    text-align: center;
+}
+
+main h1::first-letter{
+    color: tomato;
+    font-size: 70px;
+    
+}
+
+.main-text{
+    margin-bottom: 12px;
+    color: maroon;
+    font-size: 30px;
+}
+
+.main-aside img{
+    width: 200px;
+    height: 200px;
+}
+
+.main-aside img:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.main-form{
+    margin-top: 20px;
+}
+
+.main-form h1{
+    text-align: left;
+}
+
+.main-fieldset{
+    border: none;
+    border-style: none;
+    padding: 10px;
+}
+
+.main-form h1::first-letter{
+    color:blue;
+    font-size: 50px;
+}
+
+.custom-input{
+    width: 300px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    transition: .5s;
+    color: tomato;
+}
+
+.custom-input:hover{
+    width: 300px;
+    background-color: #dddddd;
+}
+
+.custom-radio{
+    width: 15px;
+    height: 15px;
+
+}
+
+.custom-radio:checked{
+    width: 25px;
+    height: 25px;
+}
+
+.custom-radio:nth-child(odd){
+    background-color: tomato;
+}
+
+.button-submit{
+    color: white;
+    border: 0;
+    padding: 8px 12px;
+    background-color: tomato;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+.button-submit:hover {
+    background-color: rgb(255, 134, 112);
+    border-radius: 32px;
+}
+
+.custom-input:disabled{
+    background-color: brown;
+}
+
+.custom-input:enabled{
+    background-color: rgb(153, 150, 150);
+}
+
+
