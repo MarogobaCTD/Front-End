@@ -1,0 +1,74 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #131313;
+}
+
+main {
+
+    padding: 72px;
+}
+
+@keyframes escorrega {
+
+    0%{
+        opacity: 0;
+        transform: translate(-50px);
+
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translate(200px);
+
+    }
+
+}
+
+.bola {
+
+    font-size: 100px;
+    text-align: left;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: escorrega; /*Ligação com a animação*/
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.roda{
+    padding: 32px;
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    transition: 2s;
+}
+
+.roda:hover{
+
+
+    transform: rotate(360deg);
+
+}
+
+.main-button{
+    margin: 12px;
+    border: 0;
+    padding: 32px;
+    font-size: 32px;
+    border-radius: 10px;
+    background-color: #004e66;
+    transition: .5s ease-in-out;
+}
+
+.main-button:hover{
+    
+    background-color: #bee9f6;
+}

@@ -1,0 +1,81 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #131313;
+}
+
+main {
+
+    padding: 72px;
+}
+/* animação do objeto */
+@keyframes float {
+
+    0%{
+        opacity: 0;
+        transform: translate(0, -50px);
+
+    }
+
+    50%{
+
+        opacity: 1;
+        font-size: 250px;
+        transform: translate(0, 50px);
+
+    }
+
+    100%{
+
+        opacity: 0;
+        transform: translate(0, -50px);
+
+    }
+    
+}
+
+.ghost{
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: float; /*Ligação com a animação*/
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+
+.main-button{
+    color:white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #5ac4e4;
+    transition: .5s ease-in-out;
+    /* transform-origin: top right; */
+    /* transition-duration: 5s; */
+    /* transition-delay: 1s; */
+    /* transition-property: background. padding; */
+    /* transition-timing-function: ease-in; */
+}
+
+.main-button:hover{
+    color: black;
+    background-color: #bee9f6;
+    /* transform: scale(1.5) rotate(20000deg); */
+    transform: translate(0, 8px);
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    margin-top: 24px;
+
+}
