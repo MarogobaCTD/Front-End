@@ -1,0 +1,111 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+
+    background-color: rgb(27, 27, 27);
+}
+
+.main-header{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    padding: 24px;
+
+}
+
+.main-menu{
+
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    /* padding: 24px; */
+    /* justify-content: space-evenly; --maneira mais sofisticada para linhar o menu */
+
+}
+
+.main-menu a {
+
+    opacity: .8;
+    color: white;
+    text-decoration: none;
+    transition: .4s ease-in-out;
+
+}
+
+.main-menu a:hover{
+    
+    opacity: 1;
+
+}
+
+.main-header button{
+
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+
+main h1{
+    
+    color: white;
+    text-align: center;
+
+}
+
+.videos{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.video{
+
+    width: 300px;
+    background-color:rgb(27, 27, 27);
+
+}
+
+.video:hover {
+
+    transform: scale(1.05);
+
+}
+
+.video img{
+
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;   
+
+}
+
+.video h1{
+    text-align: left;
+    font-size: 18px;
+}
+
+.video h2 {
+    color: rgb(145, 142, 142);
+    font-size: 10px;
+}
+
+
+
+
