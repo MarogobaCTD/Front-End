@@ -1,0 +1,48 @@
+@import './styles/button';
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    
+    background-color: aqua;
+    padding: 12px;
+
+    img{
+
+        width: 50%;
+    
+    }
+
+    ul {
+
+        background-color: white;
+        display: flex;
+
+        li{
+            padding: 12px;
+            list-style: none;
+        }
+    
+        a{
+            font-size: 24px;
+            text-decoration: none;
+
+            &:hover{
+                color:red;
+            }
+        }
+
+
+        
+    }
+
+   
+
+
+
+}
