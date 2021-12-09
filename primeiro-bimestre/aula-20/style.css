@@ -1,0 +1,32 @@
+.primary-button {
+  color: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  background-color: aqua;
+  padding: 12px;
+}
+.main-content img {
+  width: 50%;
+}
+.main-content ul {
+  background-color: white;
+  display: flex;
+}
+.main-content ul li {
+  padding: 12px;
+  list-style: none;
+}
+.main-content ul a {
+  font-size: 24px;
+  text-decoration: none;
+}
+.main-content ul a:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
