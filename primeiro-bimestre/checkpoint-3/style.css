@@ -28,6 +28,12 @@ header{
     position: sticky;
     padding-left: 10px; 
     font-size: 1rem;
+    z-index: 20;
+
+}
+
+#exampleModal{
+    z-index: 100;
 }
 
 .img-header{
